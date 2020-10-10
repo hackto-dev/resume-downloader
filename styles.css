@@ -3,6 +3,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    color: #555;
 }
 
 .container {
@@ -32,15 +33,18 @@ body {
 }
 
 .button {
-    position: relative;
-    width: 45px;
-    height: 20px;
-    background-color: #d4d4d4;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
-    right: 0;
-    bottom: 0;
-    font-size: 1rem;
-    padding: 20px;
-    border-radius: 5px;
-    margin: auto;
+    /* position: relative; */
+    width: 150px;
+    height: 60px;
+    box-shadow: 0 6px 30px -10px rgba(#1462ff,5);
+    font-size: 1.4rem;
+    padding: 0 25px;
+    justify-content: space-around;
+    border-color: blue;
+    font-family: 'Fira Sans',sans-serif;
+    border-radius: 1rem;
+    background-color: #1462ff;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
 }

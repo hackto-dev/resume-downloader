@@ -1,0 +1,19 @@
+{
+  "name": "Downloader",
+  "version": "1.0.0",
+  "description": "Basic file downloader using Node and React",
+  "main": "index.js",
+  "repository": "https://github.com/hackto-dev/resume-downloader.git",
+  "author": "hackto-dev <pratham.kulkarni1999@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
